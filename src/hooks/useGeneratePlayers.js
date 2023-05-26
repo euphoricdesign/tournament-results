@@ -10,14 +10,16 @@ export const useGeneratePLayers = () => {
         return Math.floor(Math.random() * 101);
     }
 
+
     // Crear el array
-    var array = [];
+    const array = [];
 
     // Llenar el array con objetos con propiedades "name" y "score" aleatorias
-    for (var i = 0; i < 50; i++) {
-        var obj = {
+    for (let i = 0; i < 50; i++) {
+        const obj = {
             name: generateRandomName(),
-            score: generateRandomScore()
+            score: generateRandomScore(),
+            position: i
         };
         array.push(obj);
     }

@@ -1,13 +1,16 @@
 import { TournamentLayout } from './layout/TournamentLayout'
-import { TournamentPage } from './pages/TournamentPage'
+import { TournamentGroupAPage } from './pages/TournamentGroupAPage'
 import { AppTheme } from './theme'
 
 export const TournamentApp = () => {
+
+    //* Manejo de rutas 
+
     return (
         <>
             <AppTheme>
                 <TournamentLayout>
-                    <TournamentPage />
+                    <TournamentGroupAPage />
                 </TournamentLayout>
             </AppTheme>
         </>
