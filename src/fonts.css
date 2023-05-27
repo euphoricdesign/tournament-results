@@ -1,4 +1,14 @@
 @font-face {
     font-family: 'BryantPro';
-    src: url('./assets/fonts/BryantPro-Bold.otf') format('truetype');;
+    src: url('./assets/fonts/BryantPro-Bold.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'BryantProLight';
+    src: url('./assets/fonts/BryantPro-Light.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'BryantProRegular';
+    src: url('./assets/fonts/BryantPro-Regular.otf') format('truetype');
 }

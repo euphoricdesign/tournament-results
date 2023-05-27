@@ -15,6 +15,9 @@ export const TournamentLayout = ({ children }) => {
 
 
             { children }
+            <div className='text-container'>
+                <p className='small-text'>Este torneo no esta afiliado ni patrocinado por electronic arts ni sus licenciantes. Ver reglamento en kolbi.cr</p>
+            </div>
        </div>
     )
 }

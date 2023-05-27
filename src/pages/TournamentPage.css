@@ -2,6 +2,14 @@ body {
   overflow: hidden;
 }
 
+.GroupA {
+  margin: 0;
+  padding: 12px 30px;
+  color: white;
+  font-family: 'BryantPro';
+  font-size: 25px;
+}
+
 .contenedor-total {
     height: 24900px; /* Ajusta la altura según necesidades */
     /* overflow: hidden; Oculta las barras de desplazamiento */

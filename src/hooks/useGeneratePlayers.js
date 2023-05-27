@@ -1,3 +1,5 @@
+// Genera data fake
+
 export const useGeneratePLayers = () => {
     // Función para generar un nombre aleatorio
     function generateRandomName() {

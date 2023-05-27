@@ -1,5 +1,6 @@
 import { TournamentLayout } from './layout/TournamentLayout'
 import { TournamentGroupAPage } from './pages/TournamentGroupAPage'
+import { TournamentRouter } from './router/TournamentRouter'
 import { AppTheme } from './theme'
 
 export const TournamentApp = () => {
@@ -10,7 +11,7 @@ export const TournamentApp = () => {
         <>
             <AppTheme>
                 <TournamentLayout>
-                    <TournamentGroupAPage />
+                    <TournamentRouter />
                 </TournamentLayout>
             </AppTheme>
         </>
