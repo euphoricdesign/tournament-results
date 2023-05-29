@@ -13,11 +13,23 @@ body {
 .contenedor-total {
     height: 24900px; /* Ajusta la altura según necesidades */
     /* overflow: hidden; Oculta las barras de desplazamiento */
-  }
+}
+
+.contenedor-total-finalists {
+  height: 12450px;
+}
 
 .scroll-container {
   height: 100%;
   animation: scrollAnimation 350s linear infinite; /* Ajusta la duración y el tipo de animación según necesidades */
+  display: flex;
+  justify-content: center;
+}
+
+
+.scroll-container-finalists {
+  height: 100%;
+  animation: scrollAnimation 175s linear infinite; /* Ajusta la duración y el tipo de animación según necesidades */
   display: flex;
   justify-content: center;
 }

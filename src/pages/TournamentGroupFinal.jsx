@@ -22,7 +22,7 @@ export const TournamentGroupFinal = () => {
     useEffect(() => {
         const timer = setTimeout(() => {
             setShowContent(true); 
-        }, 200);
+        }, 300);
       
         return () => {
             clearTimeout(timer);
@@ -30,12 +30,12 @@ export const TournamentGroupFinal = () => {
     })
     
     return (
-        <div className="contenedor-total">
+        <div className="contenedor-total-finalists">
             <h1 className='GroupA'>Finalistas</h1>
             {
                 data !== null && showContent
                 ? (
-                    <div className="scroll-container">
+                    <div className="scroll-container-finalists">
                         <ul className="list-container">
                             {
                                 data.table.rows.map(obj => {

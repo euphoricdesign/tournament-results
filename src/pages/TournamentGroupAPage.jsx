@@ -22,7 +22,7 @@ export const TournamentGroupAPage = () => {
     useEffect(() => {
         const timer = setTimeout(() => {
             setShowContent(true); 
-        }, 200);
+        }, 300);
       
         return () => {
             clearTimeout(timer);
