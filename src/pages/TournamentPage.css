@@ -29,7 +29,7 @@ body {
 
 .scroll-container-finalists {
   height: 100%;
-  animation: scrollAnimation 175s linear infinite; /* Ajusta la duración y el tipo de animación según necesidades */
+  animation: scrollAnimation 155s linear infinite; /* Ajusta la duración y el tipo de animación según necesidades */
   display: flex;
   justify-content: center;
 }
